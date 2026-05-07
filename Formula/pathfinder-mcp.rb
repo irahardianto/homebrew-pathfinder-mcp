@@ -1,27 +1,27 @@
 class PathfinderMcp < Formula
   desc "Pathfinder MCP Server"
   homepage "https://github.com/irahardianto/pathfinder"
-  version "0.6.2"
+  version "0.7.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.6.2/pathfinder-mcp-x86_64-apple-darwin.tar.gz"
-      sha256 "0dd1aa3fc61160cb2cccb7a5895a3250b384f9b2ed70078334d5cda3fbc9194a"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.7.0/pathfinder-mcp-x86_64-apple-darwin.tar.gz"
+      sha256 "d97132996999e7c0ff4bdf86370a753fed741ddefc6aa232d978bc4c58d83626"
     end
     on_arm do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.6.2/pathfinder-mcp-aarch64-apple-darwin.tar.gz"
-      sha256 "b4f00cb2781ad9423719bd7e01236c29e26e1138776b7072d8076a6be4af61c3"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.7.0/pathfinder-mcp-aarch64-apple-darwin.tar.gz"
+      sha256 "011d62d0d3f30120568311fd019ffc1384525640a42517b6f4256576651cf7f5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.6.2/pathfinder-mcp-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cda8e3bb202d1add8cf90b2eee69eaf93612caaceb0f408d216fb229862df07d"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.7.0/pathfinder-mcp-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "89e0ceb4320e487f3b3ffb57afd20c94220574438b6a3283b0681dfbaed8b2e0"
     end
     on_arm do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.6.2/pathfinder-mcp-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e512ff4ef1a473f134e2a8e9330be5b683ab8d14b7da61ef02b86467dc2a321e"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.7.0/pathfinder-mcp-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "1008b747ae4c684392374c7a4ea862d55c5d61486778d32198e6f7872f4f863f"
     end
   end
 
