@@ -1,27 +1,27 @@
 class PathfinderMcp < Formula
   desc "Pathfinder MCP Server"
   homepage "https://github.com/irahardianto/pathfinder"
-  version "0.13.0"
+  version "0.13.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.0/pathfinder-mcp-x86_64-apple-darwin.tar.gz"
-      sha256 "0f99de1545918508a44f426372ccd98c25f79b607a65f34c7deb1749810b430c"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.1/pathfinder-mcp-x86_64-apple-darwin.tar.gz"
+      sha256 "c13949d23bccfbd413531f94952d31784d4870195ac9ad11d027a092706975ce"
     end
     on_arm do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.0/pathfinder-mcp-aarch64-apple-darwin.tar.gz"
-      sha256 "cb7c613334cb57798659b235ce85cd77427b5c2fae030f622a30bac264b882b1"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.1/pathfinder-mcp-aarch64-apple-darwin.tar.gz"
+      sha256 "af2f5da4fe3b2b9d1d4b0912aee0fc65f53a87f840494ab287e76c1008c9f811"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.0/pathfinder-mcp-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "128019899f098593e50085ad2b928f959bfb58901cb31191fc78bf4b2066b4d9"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.1/pathfinder-mcp-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "68149961b1200fa4f580bb6b6a28fa5339e8a872763e1e952aed70a3ee12bbc3"
     end
     on_arm do
-      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.0/pathfinder-mcp-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8ab4785fa18eb531c054ef08a3694cab75741a4dcee6ff113d063897765c72cd"
+      url "https://github.com/irahardianto/pathfinder/releases/download/v0.13.1/pathfinder-mcp-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e8528075c9737b283a5665fbbe6a568fc03b337f9d0686e0e9962dd7854a4cd6"
     end
   end
 
@@ -30,6 +30,6 @@ class PathfinderMcp < Formula
   end
 
   test do
-    assert_match version, shell_output("#{bin}/pathfinder-mcp --version")
+    assert_match version, shell_output("\#{bin}/pathfinder-mcp --version")
   end
 end
